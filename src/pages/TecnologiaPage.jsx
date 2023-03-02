@@ -1,8 +1,18 @@
 import React from 'react'
+import CardTecnology from '../components/CardTecnology'
 
 const TecnologiaPage = () => {
   return (
-    <div>TecnologiaPage</div>
+    <div className='page_tec'>
+
+      <div className='content_cards'>
+        <CardTecnology/>
+        <CardTecnology/>
+        <CardTecnology/>
+        
+      </div>
+      
+    </div>
   )
 }
 
